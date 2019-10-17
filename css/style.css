@@ -1,7 +1,8 @@
 html,
 body,
 header,
-#intro {
+#intro,
+#intro-winery {
     height: 100%;
 }
 
@@ -9,12 +10,17 @@ header,
     text-decoration: none;
 }
 
-#house-page {
+#not-home-page {
     height: auto;
 }
 
 #intro {
     background: url("../img/biltmore-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#intro-winery {
+    background: url("../img/winery.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -26,6 +32,18 @@ h1 {
     color: #9c761c;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.biltmore-color {
+    color: #9c761c;
+}
+
+/*BUTTONS CLASSES*/
+
 .btn-biltmore {
     background-color: #9c761c;
 }
@@ -34,11 +52,15 @@ h1 {
     color: #ffffff;
 }
 
-.btn-main {
-    pointer: cursor;
-    z-index: 22;
+.white-link-text {
+    color: #ffffff;
 }
 
+#main-button:hover {
+    border: 1px solid #9c761c;
+    margin-top: 30px;
+}
+/*BUTTONS CLASSES*/
 /* SOCIAL BUTTONS */
 .social-btn a {
     padding-left: 22px;
@@ -73,6 +95,43 @@ h1 {
 
 
 /* SOCIAL BUTTONS */
+
+
+/* Gallery Styles*/
+.gallery-main {
+    margin-top: 25px;
+}
+/* Gallery Styles*/
+
+/*Winery Styles*/
+#winery-main {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* .winery-row {
+    margin-bottom: 20px;
+} */
+
+.single-card-winery {
+    padding-bottom: 25px;
+    min-height: 100%;
+}
+/*Winery Styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 640px) {
     .social-btn {
