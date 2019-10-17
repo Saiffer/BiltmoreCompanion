@@ -1,0 +1,85 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.a-decoration {
+    text-decoration: none;
+}
+
+#house-page {
+    height: auto;
+}
+
+#intro {
+    background: url("../img/biltmore-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar-color, .page-footer {
+    background-color: #444 !important;
+}
+
+h1 {
+    color: #9c761c;
+}
+
+.btn-biltmore {
+    background-color: #9c761c;
+}
+
+.btn-link {
+    color: #ffffff;
+}
+
+.btn-main {
+    pointer: cursor;
+    z-index: 22;
+}
+
+/* SOCIAL BUTTONS */
+.social-btn a {
+    padding-left: 22px;
+}
+
+    .face-color {
+        color: #4267B2;
+    }
+
+    .twit-color {
+        color: #1DA1F2;
+    }
+
+    .insta-color {
+        color: #ddd;
+        background-color: #ddd;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+
+    .face-color:hover, .twit-color:hover, .insta-color:hover {
+        transform: scale(1.5);
+        transition: transform .5s;
+    }
+
+    .main-content {
+        padding-top: 30px;
+    }
+
+    .main-paragraph {
+        padding: 30px;
+    }
+
+
+/* SOCIAL BUTTONS */
+
+@media (max-width: 640px) {
+    .social-btn {
+        margin-top: 22px;
+    }
+
+    .social-btn a {
+        padding: 0;
+    }
+}
